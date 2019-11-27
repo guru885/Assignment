@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8630" started-at="2019-11-27T13:44:55Z" finished-at="2019-11-27T13:45:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8630" started-at="2019-11-27T13:44:55Z" finished-at="2019-11-27T13:45:04Z">
+      <class name="JPMCAssignment.Restassured.TestRestassured">
+        <test-method status="PASS" signature="TestAllUsersRequest()[pri:0, instance:JPMCAssignment.Restassured.TestRestassured@51efea79]" name="TestAllUsersRequest" duration-ms="4464" started-at="2019-11-27T19:14:55Z" finished-at="2019-11-27T19:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllUsersRequest -->
+        <test-method status="PASS" signature="TestPostRequest()[pri:0, instance:JPMCAssignment.Restassured.TestRestassured@51efea79]" name="TestPostRequest" duration-ms="1417" started-at="2019-11-27T19:15:00Z" finished-at="2019-11-27T19:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPostRequest -->
+        <test-method status="PASS" signature="TestSingleUserRequest()[pri:0, instance:JPMCAssignment.Restassured.TestRestassured@51efea79]" name="TestSingleUserRequest" duration-ms="1036" started-at="2019-11-27T19:15:01Z" finished-at="2019-11-27T19:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSingleUserRequest -->
+        <test-method status="PASS" signature="TestcommentRequest()[pri:0, instance:JPMCAssignment.Restassured.TestRestassured@51efea79]" name="TestcommentRequest" duration-ms="1643" started-at="2019-11-27T19:15:02Z" finished-at="2019-11-27T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcommentRequest -->
+      </class> <!-- JPMCAssignment.Restassured.TestRestassured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
