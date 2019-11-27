@@ -17,6 +17,10 @@ public class APIConfig {
 	Response resp;
 	String[] keyValue;
 	
+	/* This getPropertyValue function is used to fetch 
+	 * the key value from the properties file
+	 * Function takes input parameter as key and returns string value 
+	 */
 	public String getPropertyValue(String key) {
 		try {
 			FileInputStream fis = new FileInputStream("./apilist.properties");
@@ -31,6 +35,11 @@ public class APIConfig {
 		}
 		
 	}
+	
+	/* The executeRequest function performs different http methods 
+	 * on the uri and returns response 
+	 * function takes string as input parameter and returns Response  
+	 */
 	
 	public Response executeRequest(String apidata) {
 		String[] arr = apidata.split(";");
@@ -51,7 +60,10 @@ public class APIConfig {
 		return resp;
 	}
 	
-	@SuppressWarnings("unchecked")
+	/*the function createJSONObject creates JSOn 0bject
+	 * from the input string that is passed as key value object
+	 * Takes String as input and returns the json string format
+	 */
 	public String createJSONObject(String data) {
 		JSONObject json = new JSONObject();
 		String[] arrJsondata = data.split(",");
